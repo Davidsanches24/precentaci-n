@@ -55,7 +55,7 @@
             
         if (count($errores) == 0){
             ?>
-            <form action="../index.php"><?php
+            <form action="../controladores/c-iniciar_seccion.php"><?php
             echo '<input type = "submit" class = "boton" value= "iniciar"></div></form>';
           
             
@@ -88,7 +88,7 @@
 
 </div>
 
-<script language="javascript">alert("este aplicativo no solicitara información sensible decuentas, monetaria, o que permitan atentar contrala integridad del usuario.");</script>
+<script language="javascript">alert("este aplicativo no solicitara información sensible decuentas, monetaria, o que permitan atentar contra la integridad del usuario.");</script>
 </body>
 </html>
 
