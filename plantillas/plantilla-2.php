@@ -9,15 +9,15 @@
         <link rel = "stylesheet" href ="css/estilos.css">
 
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMRG2NYLTN"></script>
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9CYFVR0ZE5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-LMRG2NYLTN');
-		
-  </script>
+  gtag('config', 'G-9CYFVR0ZE5');
+</script>
         
     </head>
 
