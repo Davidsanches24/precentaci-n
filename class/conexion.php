@@ -5,7 +5,7 @@
  {
 	 static function conectar()
  { 
-	 return mysqli_connect('localhost', 'root', '', 'prueba');
+	 return mysqli_connect('localhost', 'root', '', 'b');
  } 
 
  } 

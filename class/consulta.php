@@ -43,19 +43,20 @@ class consulta extends Conex
     }
 
 
-    static function autenticacion( $usuario, $clave )
+    static function autenticacion( $usuario, $clave1 )
         {   
              
             include "metho.php";         
-            $clave=$encriptar($clave); 
+            $clave1 =$encriptar($clave1); 
             $conexion=self::conectar();
         
             //Esta clase es del modelo.
             $sql  = " SELECT id ";
             $sql .= " FROM usuario ";
             $sql .= " WHERE correo = '$usuario' ";
-            $sql .= " AND clave = '$clave' ";
-            //echo $sql;
+            $sql .= " AND clave = '$clave1' ";
+            $sql;
+
             $resultado = $conexion->query( $sql );
 
             return $resultado;
