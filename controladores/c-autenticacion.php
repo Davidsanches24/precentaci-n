@@ -6,11 +6,9 @@
     Csesiones::iniciar_sesion();
 
     $usuario = $_POST[ 'usuario' ];
-    $clave = $_POST[ 'clave' ];
-
-    //echo $usuario." ".$clave;
-
-    $r = consulta::autenticacion( $usuario, $clave );
+    $clave1 = $_POST[ 'clave' ];
+    $r = consulta::autenticacion( $usuario, $clave1 );
+    
 
 //var_dump($r->fetch_all(MYSQLI_ASSOC));
 
