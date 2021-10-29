@@ -61,7 +61,7 @@ $pdf->setfont('Arial','B',8);
     $pdf->cell(18,8,'f devolucion',1,0,'c',0);
     $pdf->cell(18,8,'hora ingreso',1,0,'c',0);
     $pdf->cell(18,8,'hora salida',1,0,'c',0);
-    $pdf->cell(20,8,'cede',1,0,'c',0);
+    $pdf->cell(20,8,'sede',1,0,'c',0);
     $pdf->cell(20,8,'aula',1,0,'c',0);
     $pdf->cell(21,8,'N_documento',1,0,'c',0);
     $pdf->cell(45,8,'instructor',1,0,'c',0);
