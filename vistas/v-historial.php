@@ -50,10 +50,10 @@
                               <tr>
                               <td data-label="Fecha Registro:"><?=$row['fecha_registro'] ?></td>
                               <td data-label="Fecha prestamo:"><?=$row['fecha_prestamo']?></td>
-                              <td data-label="Fecha devolucion:"><?=$row['fecha_devolucion']?></td>
+                              <td data-label="Fecha devolución:"><?=$row['fecha_devolucion']?></td>
                               <td data-label="Hora Ingreso:"><?=$row['hora_ingreso']?></td>
                               <td data-label="Hora Salida:"><?=$row['hora_salida']?></td>
-                              <td data-label="Cede:"><?=$row['cede']?></td>                   
+                              <td data-label="sede:"><?=$row['cede']?></td>                   
                               <td data-label="aula:"><?=$row['nom_aula']?></td>
                               <td data-label="No_documento:"><?=$row['No_documento']?></td>
                               <td data-label="instructor:"><?=$row['nom_instructor']?></td>
